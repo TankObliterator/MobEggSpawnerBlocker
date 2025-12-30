@@ -1,14 +1,15 @@
-main: me.sothatsit.mobeggspawnerblocker.MobEggSpawnerBlocker
-author: sothatsit
 name: MobEggSpawnerBlocker
-version: 1
+version: '1.0'
+main: me.sothatsit.mobeggspawnerblocker.MobEggSpawnerBlocker
+api-version: '1.21'
 commands:
-   mobeggspawnerblocker:
-      description: 'reload MobEggSpawnerBlocker config'
+  mobeggspawnerblocker:
+    description: Reload the configuration
+    permission: mobeggspawnerblocker.reload
 permissions:
-   mobeggspawnerblocker.reload:
-      description: 'gives access to /mobeggspawnerblocker command'
-      default: op
-   mobeggspawnerblocker.override:
-      description: 'Override mob egg spawner blocker'
-      default: op
+  mobeggspawnerblocker.reload:
+    description: Allows you to reload the config
+    default: op
+  mobeggspawnerblocker.override:
+    description: Allows you to use eggs on spawners
+    default: op
