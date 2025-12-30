@@ -1,4 +1,4 @@
-name: MobEggSpawnerBlocker
+name: TanksMobEggSpawnerBlocker
 version: '1.0'
 main: me.sothatsit.mobeggspawnerblocker.MobEggSpawnerBlocker
 api-version: '1.21'
@@ -13,3 +13,4 @@ permissions:
   mobeggspawnerblocker.override:
     description: Allows you to use eggs on spawners
     default: op
+
