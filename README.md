@@ -6,4 +6,4 @@ My updated version of [this plugin](https://github.com/Sothatsit/MobEggSpawnerBl
 
 Block players changing spawners using mob eggs
 
-More info at comming soon
+Paper seems to have added this functionality nativly with `disable-mob-spawner-spawn-egg-transformation:` in `paper-world-defaults.yml`.
