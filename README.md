@@ -1,3 +1,6 @@
+# Archive Note
+This functionality is built into paper (see bottom of readme) and I have no plans to maintain this any longer.
+
 Tank's MobEggSpawnerBlocker
 ====================
 My updated version of [this plugin](https://github.com/Sothatsit/MobEggSpawnerBlocker) to propperly support 1.21.11.
